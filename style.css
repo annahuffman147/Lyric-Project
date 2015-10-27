@@ -3,6 +3,7 @@ body {
   font-size: 13.4px;
   background-color: #CCD;
   min-width: 320px;
+  margin: 0;
 }
 
 header{
@@ -19,12 +20,17 @@ header img{
   margin-left: 10%;
   margin-right: 5%;
   margin-top: 10px;
+  height: 40px;
+  position: relative;
+
 }
 
 header input{
   display: inline-block;
   float: right;
   height: 30px;
+  position: relative;
+  margin-top: 10px;
 }
 
 header button{
@@ -36,10 +42,13 @@ header button{
   border-radius: 5px;
   margin-right: 10%;
   height: 35px;
+  position: relative;
+  margin-top: 10px;
 }
 
 nav ul{
   list-style-type: none;
+  margin: 0;
 }
 
 nav li{
@@ -49,6 +58,8 @@ nav li{
   font-size: 1.3em;
   font-weight: bold;
   color: white;
+  position: relative;
+  margin-top: 10px;
 
 
 .container {
