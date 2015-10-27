@@ -4,3 +4,29 @@ body {
   background-color: #CCD;
   min-width: 320px;
 }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.text-center {
+  text-align: center;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar-nav {
+  margin: 7.5px -15px;
+}
+
+.navbar-center {
+  display: inline-block;
+  float: none;
+  text-align: center;
+}
