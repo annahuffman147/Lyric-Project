@@ -5,28 +5,20 @@ body {
   min-width: 320px;
 }
 
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.text-center {
-  text-align: center;
+.navbottom {
+  display: inline;
+  list-style-type: none;
 }
 
-.nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-.navbar-nav {
-  margin: 7.5px -15px;
-}
-
-.navbar-center {
+.navbar {
+  position: relative;
   display: inline-block;
-  float: none;
-  text-align: center;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar li {
+  display: inline;
+  padding: 10px;
 }
